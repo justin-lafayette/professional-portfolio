@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import logo from '../../logo.svg';
+import './style.css';
 
 export default function Header() {
 
@@ -19,8 +20,8 @@ export default function Header() {
             <Navbar.Toggle />
             <Navbar.Collapse>
                 <Nav>
-                    <Nav.Link>Github</Nav.Link>
-                    <Nav.Link>LinkedIn</Nav.Link>
+                    <Nav.Link href="https://github.com/justin-barfield" target="_blank">Github</Nav.Link>
+                    <Nav.Link href="www.linkedin.com/in/justin-barfield-473503101" target="_blank">LinkedIn</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
