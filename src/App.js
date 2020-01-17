@@ -13,16 +13,16 @@ const App = ()=> {
   return (
     <>
       <Header />
-      <Section className="bg-info" id="about-me" >
+      <Section className="first" id="about-me" >
         <AboutMe />
       </Section>
-      <Section className="bg-success" >
+      <Section className="bg-success" id="character-traits" >
         <CharacterTraits />
       </Section>
-      <Section className="bg-danger" >
+      <Section className="bg-danger" id="react-skills" >
         <ReactSkills />
       </Section>
-      <Section className="bg-primary" >
+      <Section className="bg-primary" id="past-projects" >
         <PastProjects />
       </Section>
       {/* <Section className="bg-warning" ></Section>

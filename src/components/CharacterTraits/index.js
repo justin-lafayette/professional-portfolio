@@ -12,9 +12,26 @@ export default function CharacterTraits() {
                     </Row>
                     <hr />
                     <Row>
-                        <div>
-                            Body Content
-                        </div>
+                        <ul>
+                            <li>
+                                Detailed oriented
+                            </li>
+                            <li>
+                                Quick learner
+                            </li>
+                            <li>
+                                Advid learner
+                            </li>
+                            <li>
+                                Hard worker
+                            </li>
+                            <li>
+                                Team player
+                            </li>
+                            <li>
+                                Fun loving
+                            </li>
+                        </ul>
                     </Row>
                 </Container>
             </Col>

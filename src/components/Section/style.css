@@ -1,7 +1,7 @@
 .jumbotron {
     margin: 0 auto;
     overflow-x: hidden;
-    height: 102.5vh;
+    height: 107.5vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,4 +11,21 @@
     /* height: -o-calc(100vh - 65px); */
     height: -webkit-calc(100vh - 7vh);
     /* height: -moz-calc(100vh - 65px); */
+    background-image: url("../../assets/images/wild_flowers.png");
+}
+
+#character-traits {
+    background-image: url("../../assets/images/congruent_pentagon.png");
+}
+
+#react-skills {
+    background-image: url("../../assets/images/prism.png");
+}
+
+#past-projects {
+    background-image: url("../../assets/images/triangular_@2X.png");
+}
+
+.container {
+    background-color: rgba(240, 248, 255, .5);
 }
